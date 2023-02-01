@@ -77,7 +77,7 @@ class VC1: UIViewController {
     }
     
     private func toSmallCircle() {
-        UIView.animate(withDuration: 1) {
+        let animator = UIViewPropertyAnimator(duration: 1, dampingRatio: 0.3) {
             self.bigWidth.isActive = false
             self.smallWidth.isActive = true
             self.view.layoutIfNeeded()
@@ -86,11 +86,11 @@ class VC1: UIViewController {
             self.parentView.redView.layer.cornerRadius = self.parentView.redView.frame.width / 2
             self.parentView.greenView.layer.cornerRadius = self.parentView.greenView.frame.width / 2
         }
-        
+        animator.startAnimation()
     }
     
     private func toBigSquare() {
-        UIView.animate(withDuration: 1) {
+        let animator = UIViewPropertyAnimator(duration: 1, dampingRatio: 0.3) {
             self.bigWidth.isActive = true
             self.smallWidth.isActive = false
             self.view.layoutIfNeeded()
@@ -99,7 +99,7 @@ class VC1: UIViewController {
             self.parentView.redView.layer.cornerRadius = .zero
             self.parentView.greenView.layer.cornerRadius = .zero
         }
-        
+        animator.startAnimation()
     }
     
     

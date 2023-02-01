@@ -14,7 +14,7 @@ extension UISlider {
         slider.thumbTintColor = color
         slider.minimumValue = 0
         slider.maximumValue = 10
-        slider.value = 5
+        slider.value = 0
         return slider
     }
     

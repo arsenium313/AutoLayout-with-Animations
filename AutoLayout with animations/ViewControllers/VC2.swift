@@ -31,6 +31,7 @@ class VC2: UIViewController {
     private lazy var greenX: CGFloat = (self.view.frame.maxX - squareSize) / 10 * CGFloat(greenSlider.value)
     private lazy var greenY: CGFloat = self.view.frame.maxY / 2
     
+    
     //MARK: - View Life Circle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,18 +77,14 @@ class VC2: UIViewController {
     //MARK: - @objc
     @objc private func redSliderAction(_ sender: UISlider) {
         redX = (self.view.frame.maxX - squareSize) / 10 * CGFloat(sender.value)
-        
-        UIView.animate(withDuration: 0.2) {
-            self.redView.frame = CGRect(x: self.redX, y: self.redY, width: self.squareSize, height: self.squareSize)
-        }
+        self.redView.frame = CGRect(x: self.redX, y: self.redY, width: self.squareSize, height: self.squareSize)
+        self.view.layoutIfNeeded()
     }
     
     @objc private func greenSliderAction(_ sender: UISlider) {
         greenX = (self.view.frame.maxX - squareSize) / 10 * CGFloat(sender.value)
-        
-        UIView.animate(withDuration: 0.2) {
-            self.greenView.frame = CGRect(x: self.greenX, y: self.greenY, width: self.squareSize, height: self.squareSize)
-        }
+        self.greenView.frame = CGRect(x: self.greenX, y: self.greenY, width: self.squareSize, height: self.squareSize)
+        self.view.layoutIfNeeded()
     }
     
     

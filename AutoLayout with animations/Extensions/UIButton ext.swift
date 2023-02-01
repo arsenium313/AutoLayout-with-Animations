@@ -8,7 +8,6 @@
 import UIKit
 
 extension UIButton {
-    
     static func customButton(title: String, color: UIColor) -> UIButton {
         let button = UIButton()
         button.setTitle(title, for: .normal)
@@ -18,10 +17,9 @@ extension UIButton {
         button.setTitleColor(.white, for: .highlighted)
         return button
     }
-    
 }
 
-extension UIButton { //если создавать много одинаковых объектов, проще сделать расширение и создавать через функцию
+extension UIButton {
     static func customButton(tittle: String, color: UIColor, fontSize: CGFloat) -> UIButton {
         let button = UIButton()
         button.setTitle(tittle, for: .normal)
