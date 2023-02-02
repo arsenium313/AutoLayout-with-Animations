@@ -10,6 +10,7 @@ import UIKit
 extension UIButton {
     static func customButton(title: String, color: UIColor) -> UIButton {
         let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle(title, for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
         button.backgroundColor = color
@@ -20,9 +21,9 @@ extension UIButton {
 }
 
 extension UIButton {
-    static func customButton(tittle: String, color: UIColor, fontSize: CGFloat) -> UIButton {
+    static func customButton(title: String, color: UIColor, fontSize: CGFloat) -> UIButton {
         let button = UIButton()
-        button.setTitle(tittle, for: .normal)
+        button.setTitle(title, for: .normal)
         button.backgroundColor = color
         button.titleLabel?.font = UIFont.systemFont(ofSize: fontSize)
         return button

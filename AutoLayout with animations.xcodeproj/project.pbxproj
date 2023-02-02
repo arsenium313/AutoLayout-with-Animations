@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C7528513298166BE00BC35D2 /* TwoSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7528512298166BE00BC35D2 /* TwoSquareView.swift */; };
 		C752851C29817F1D00BC35D2 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C752851B29817F1D00BC35D2 /* VC2.swift */; };
+		C754D2A4298B932600F7290B /* VC7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754D2A3298B932600F7290B /* VC7.swift */; };
 		C7A3682B298A525700A5CCDE /* VC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A3682A298A525700A5CCDE /* VC5.swift */; };
 		C7A3682D298AA74800A5CCDE /* VC6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A3682C298AA74800A5CCDE /* VC6.swift */; };
 		C7A3682F298AA83200A5CCDE /* ChildVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A3682E298AA83200A5CCDE /* ChildVC.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		C7528512298166BE00BC35D2 /* TwoSquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSquareView.swift; sourceTree = "<group>"; };
 		C752851B29817F1D00BC35D2 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		C754D2A3298B932600F7290B /* VC7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC7.swift; sourceTree = "<group>"; };
 		C7A3682A298A525700A5CCDE /* VC5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC5.swift; sourceTree = "<group>"; };
 		C7A3682C298AA74800A5CCDE /* VC6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC6.swift; sourceTree = "<group>"; };
 		C7A3682E298AA83200A5CCDE /* ChildVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildVC.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				C7A3682A298A525700A5CCDE /* VC5.swift */,
 				C7A3682C298AA74800A5CCDE /* VC6.swift */,
 				C7A3682E298AA83200A5CCDE /* ChildVC.swift */,
+				C754D2A3298B932600F7290B /* VC7.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				C7A3682F298AA83200A5CCDE /* ChildVC.swift in Sources */,
 				C7FBCDF72988DEDA00897281 /* RootVC.swift in Sources */,
 				C7A8EA33297FEE16000ECF3C /* SceneDelegate.swift in Sources */,
+				C754D2A4298B932600F7290B /* VC7.swift in Sources */,
 				C752851C29817F1D00BC35D2 /* VC2.swift in Sources */,
 				C7FBCDFC2988E99E00897281 /* UIButton ext.swift in Sources */,
 			);

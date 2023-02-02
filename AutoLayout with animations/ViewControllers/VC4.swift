@@ -15,9 +15,9 @@ class VC4: UIViewController {
         static let spacing: CGFloat = 16.0
     }
 
-    private let redButton = UIButton.customButton(tittle: "Red", color: #colorLiteral(red: 0.4392156899, green: 0.01176470611, blue: 0.1921568662, alpha: 1), fontSize: ViewMetrics.fontSize)
-    private let greenButton = UIButton.customButton(tittle: "Green", color: #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1), fontSize: ViewMetrics.fontSize)
-    private let blueButton = UIButton.customButton(tittle: "Blue", color: #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1), fontSize: ViewMetrics.fontSize)
+    private let redButton = UIButton.customButton(title: "Red", color: #colorLiteral(red: 0.4392156899, green: 0.01176470611, blue: 0.1921568662, alpha: 1), fontSize: ViewMetrics.fontSize)
+    private let greenButton = UIButton.customButton(title: "Green", color: #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1), fontSize: ViewMetrics.fontSize)
+    private let blueButton = UIButton.customButton(title: "Blue", color: #colorLiteral(red: 0.1764705926, green: 0.4980392158, blue: 0.7568627596, alpha: 1), fontSize: ViewMetrics.fontSize)
     
     private lazy var switcher: UISwitch = {
         let switcher = UISwitch()
