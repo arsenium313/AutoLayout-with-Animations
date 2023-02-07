@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7135201298CEB6500ADE662 /* VC8.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7135200298CEB6500ADE662 /* VC8.swift */; };
 		C7528513298166BE00BC35D2 /* TwoSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7528512298166BE00BC35D2 /* TwoSquareView.swift */; };
 		C752851C29817F1D00BC35D2 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C752851B29817F1D00BC35D2 /* VC2.swift */; };
 		C754D2A4298B932600F7290B /* VC7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754D2A3298B932600F7290B /* VC7.swift */; };
@@ -19,6 +20,7 @@
 		C7A8EA3A297FEE18000ECF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A8EA39297FEE18000ECF3C /* Assets.xcassets */; };
 		C7A8EA3D297FEE18000ECF3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A8EA3B297FEE18000ECF3C /* LaunchScreen.storyboard */; };
 		C7BC97F12987A06200FD74D2 /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BC97F02987A06200FD74D2 /* VC4.swift */; };
+		C7EDD18129922C5B00B4A01C /* VC9.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EDD18029922C5B00B4A01C /* VC9.swift */; };
 		C7FBCDF72988DEDA00897281 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBCDF62988DEDA00897281 /* RootVC.swift */; };
 		C7FBCDFA2988E95C00897281 /* UIView ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBCDF92988E95C00897281 /* UIView ext.swift */; };
 		C7FBCDFC2988E99E00897281 /* UIButton ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FBCDFB2988E99E00897281 /* UIButton ext.swift */; };
@@ -27,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7135200298CEB6500ADE662 /* VC8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC8.swift; sourceTree = "<group>"; };
 		C7528512298166BE00BC35D2 /* TwoSquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSquareView.swift; sourceTree = "<group>"; };
 		C752851B29817F1D00BC35D2 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 		C754D2A3298B932600F7290B /* VC7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC7.swift; sourceTree = "<group>"; };
@@ -41,6 +44,7 @@
 		C7A8EA3C297FEE18000ECF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7A8EA3E297FEE18000ECF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7BC97F02987A06200FD74D2 /* VC4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
+		C7EDD18029922C5B00B4A01C /* VC9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC9.swift; sourceTree = "<group>"; };
 		C7FBCDF62988DEDA00897281 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
 		C7FBCDF92988E95C00897281 /* UIView ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView ext.swift"; sourceTree = "<group>"; };
 		C7FBCDFB2988E99E00897281 /* UIButton ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton ext.swift"; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				C7A3682C298AA74800A5CCDE /* VC6.swift */,
 				C7A3682E298AA83200A5CCDE /* ChildVC.swift */,
 				C754D2A3298B932600F7290B /* VC7.swift */,
+				C7135200298CEB6500ADE662 /* VC8.swift */,
+				C7EDD18029922C5B00B4A01C /* VC9.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -215,8 +221,10 @@
 				C7FBCDFA2988E95C00897281 /* UIView ext.swift in Sources */,
 				C7FBCE00298937EA00897281 /* VC3.swift in Sources */,
 				C7BC97F12987A06200FD74D2 /* VC4.swift in Sources */,
+				C7135201298CEB6500ADE662 /* VC8.swift in Sources */,
 				C7528513298166BE00BC35D2 /* TwoSquareView.swift in Sources */,
 				C7A8EA35297FEE16000ECF3C /* VC1.swift in Sources */,
+				C7EDD18129922C5B00B4A01C /* VC9.swift in Sources */,
 				C7A3682B298A525700A5CCDE /* VC5.swift in Sources */,
 				C7A8EA31297FEE16000ECF3C /* AppDelegate.swift in Sources */,
 				C7A3682F298AA83200A5CCDE /* ChildVC.swift in Sources */,

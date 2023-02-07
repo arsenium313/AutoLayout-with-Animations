@@ -17,9 +17,12 @@ class RootVC: UIViewController {
     private let vc5Button = UIButton.customButton(title: "VC 5", color: #colorLiteral(red: 0.4508578777, green: 0.9882974029, blue: 0.8376303315, alpha: 1))
     private let vc6Button = UIButton.customButton(title: "VC 6", color: #colorLiteral(red: 0.1019607857, green: 0.2784313858, blue: 0.400000006, alpha: 1))
     private let vc7Button = UIButton.customButton(title: "VC 7", color: #colorLiteral(red: 0.9995340705, green: 0.988355577, blue: 0.4726552367, alpha: 1))
+    private let vc8Button = UIButton.customButton(title: "VC 8", color: #colorLiteral(red: 0.1294117719, green: 0.2156862766, blue: 0.06666667014, alpha: 1))
+    private let vc9Button = UIButton.customButton(title: "VC 9", color: #colorLiteral(red: 0.1764705926, green: 0.01176470611, blue: 0.5607843399, alpha: 1))
     
     private lazy var stackView: UIStackView = {
-        let stackView = UIStackView(arrangedSubviews: [vc1Button, vc2Button, vc3Button, vc4Button, vc5Button, vc6Button, vc7Button])
+        let stackView = UIStackView(arrangedSubviews: [vc1Button, vc2Button, vc3Button, vc4Button, vc5Button,
+                                                       vc6Button, vc7Button, vc8Button, vc9Button])
         stackView.axis = .vertical
         stackView.alignment = .fill
         stackView.distribution = .fillEqually
@@ -62,6 +65,8 @@ class RootVC: UIViewController {
         vc5Button.addTarget(self, action: #selector(goToVC5), for: .touchUpInside)
         vc6Button.addTarget(self, action: #selector(goToVC6), for: .touchUpInside)
         vc7Button.addTarget(self, action: #selector(goToVC7), for: .touchUpInside)
+        vc8Button.addTarget(self, action: #selector(goToVC8), for: .touchUpInside)
+        vc9Button.addTarget(self, action: #selector(goToVC9), for: .touchUpInside)
     }
     
     
@@ -98,6 +103,16 @@ class RootVC: UIViewController {
     
     @objc private func goToVC7() {
         let vcToGo = VC7()
+        navigationController?.pushViewController(vcToGo, animated: true)
+    }
+    
+    @objc private func goToVC8() {
+        let vcToGo = VC8()
+        navigationController?.pushViewController(vcToGo, animated: true)
+    }
+    
+    @objc private func goToVC9() {
+        let vcToGo = VC9()
         navigationController?.pushViewController(vcToGo, animated: true)
     }
 }

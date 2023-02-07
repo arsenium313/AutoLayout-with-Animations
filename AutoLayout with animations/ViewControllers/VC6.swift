@@ -9,6 +9,7 @@ import UIKit
 
 class VC6: UIViewController {
 
+    //MARK: Priperties
     private let parentView = UIView.customView(color: #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1))
     private let childVC = ChildVC()
     
@@ -44,9 +45,7 @@ class VC6: UIViewController {
         parentView.addSubview(childVC.view)
         childVC.didMove(toParent: self)
         childVC.view.frame = parentView.bounds
-        parentView.layoutIfNeeded()
     }
+ 
     
-    
-    //MARK: - @objc
 }

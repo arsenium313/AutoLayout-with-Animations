@@ -13,6 +13,7 @@ extension UIButton {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle(title, for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
+        button.titleLabel?.adjustsFontSizeToFitWidth = true
         button.backgroundColor = color
         button.setTitleColor(.black, for: .normal)
         button.setTitleColor(.white, for: .highlighted)
